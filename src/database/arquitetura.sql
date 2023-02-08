@@ -1,4 +1,4 @@
--- Active: 1675777819460@@127.0.0.1@3306
+-- Active: 1675868906313@@127.0.0.1@3306
 CREATE TABLE courses (
     id TEXT PRIMARY KEY UNIQUE NOT NULL,
     name TEXT UNIQUE NOT NULL,
@@ -10,3 +10,5 @@ VALUES
 ("c001", "Javascript", 5),
 ("c002", "React", 10),
 ("c003", "Typescript", 15);
+
+SELECT * FROM courses;
